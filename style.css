@@ -27,12 +27,13 @@ html {
 
 /* ===========NAVBAR RELATED DESIGN========= */
 .navbar {
+    background-color: aliceblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80vw;
    margin: 0 auto;
-   padding-top: 30px;
+   padding: 20px;
 }
 .nav-content {
     font-size: 24px;
@@ -59,7 +60,7 @@ html {
 
 /* =========BANNER RELATED DESIGN========== */
 .banner {
-    /* background-color: #AAAAAA; */
+    background-color: #AAAAAA;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -96,6 +97,26 @@ html {
     background-repeat: no-repeat;
     
 }
+/* ========LOGO RELATED DESIGN============ */
+
+.logo {
+    background-color: #eeb9b9;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vw;
+    margin: 0 auto;  
+   border-top: 1px solid #C0CCDA;
+   border-bottom: 1px solid #C0CCDA;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.logo img {
+    margin-right: 50px;
+    width: 65px;
+    
+}
+
 
 
 
@@ -141,6 +162,16 @@ flex-direction: column;
     width: 100%;
     height: 100%;
 }
-
+/* ============LOGO RELATED RESPONSIVE========== */
+.logo {
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 10px;
+}
+.logo img {
+    margin-right: 40px;
+    width: 80%;
+    
+}
 
 }
