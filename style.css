@@ -22,12 +22,6 @@ html {
 }
 
 
-/* ===============SECONDARY COLOR============== */
-.text-dark-color{
-    color: #0A0826;
-    
-}
-
 /* ===========NAVBAR RELATED DESIGN========= */
 .navbar {
     background-color: aliceblue;
@@ -90,6 +84,8 @@ html {
     border-radius: 41px;
     background-color: #E02C6D;
     color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
 }
 .primary-btn:hover {
     background-color: red;
@@ -195,7 +191,47 @@ color: #3A3A3A;
     font-weight: 700;
    padding-top: 20px;
    padding-bottom: 0px;
+   margin-bottom: 100px;
  }
+
+ /* --------GEAR SECTION RELATED DESIGN=========== */
+
+.gear {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+    width: 75vw;
+    margin: 0 auto;
+    background-color: #3fdb2e;
+   
+}
+.gear-content h1 {
+    font-size: 33px;
+    font-weight: bold;
+    color: #0A0826;
+}
+.gear-content p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #6C6C6C;
+
+}
+
+.gear-btn {
+    padding: 10px 24px;
+    border: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+.gear-btn:hover {
+    background-color: red;
+}
+.gear img {
+    object-fit: contain;
+}
 /* ===========RESPONSIVE LAYOUT DESIGN============== */
 @media screen and (max-width: 576px) {
  /* NAVBAR RELATED RESPONSIVE */
@@ -252,5 +288,19 @@ flex-direction: column;
     grid-template-columns: repeat(1,1fr);
 
    
+}
+/* ===========GEAR SECTION RESPONSIVE=============== */
+.gear {
+    flex-direction: column-reverse;
+   gap: 30px;
+}
+.gear img  {
+    width: 100%;
+}
+.gear-content {
+    text-align: center;
+}
+.gear-btn {
+    margin-top: 25px;
 }
 }
