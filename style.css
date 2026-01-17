@@ -32,6 +32,7 @@ html {
     align-items: center;
     width: 80vw;
    margin: 0 auto;
+   padding-top: 30px;
 }
 .nav-content {
     font-size: 24px;
@@ -76,7 +77,7 @@ html {
 }
 .banner-content p {
     font-size: 16px;
-    font-weight: 600 ;
+    font-weight: 600;
 
 }
 .primary-btn {
@@ -85,6 +86,9 @@ html {
     border-radius: 41px;
     background-color: #E02C6D;
     color: #FFFFFF;
+}
+.primary-btn:hover {
+    background-color: red;
 }
 .banner-image {
     background-image: url(./images/Background.png);
@@ -102,15 +106,41 @@ html {
  /* NAVBAR RELATED RESPONSIVE */
     .navbar {
     flex-direction: column;
+    text-align: center;
    
 }  
  .nav-content {
     font-size: 20px;
+    text-align: center;
+   
  }
 .nav-menu ul {
 flex-direction: column;
 }
 /* BANNER RELATED RESPONSIVE */
 
+.banner {
+    flex-direction: column-reverse;  
+}
+.banner-content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.banner-content h1 {
+    font-size: 35px;
 
 }   
+
+.banner-content p {
+    font-size: 20px;
+
+}  
+.banner-image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+}
