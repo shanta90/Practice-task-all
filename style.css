@@ -232,6 +232,44 @@ color: #3A3A3A;
 .gear img {
     object-fit: contain;
 }
+
+/* ================FOOTER SECTION RELATED DESIGN================= */
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #0A0826;
+    padding: 50px; 
+} 
+   .footer h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+   }
+    .footer p { 
+        color:#FFFFFF;
+         font-size: 16px;
+         font-weight: bold;
+         font-family: "Manrope", sans-serif;;
+}
+.social-link a{
+    color: #FFFFFF;
+   padding: 0 3px;
+}
+.social-link {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
+    
+}
+.social-icon {
+    border-radius:50% ;
+    background-color: rgba(255, 255, 255, 0.088)
+    
+}
+
+
 /* ===========RESPONSIVE LAYOUT DESIGN============== */
 @media screen and (max-width: 576px) {
  /* NAVBAR RELATED RESPONSIVE */
@@ -303,4 +341,11 @@ flex-direction: column;
 .gear-btn {
     margin-top: 25px;
 }
+/* ==============FOOTER RESPONSIVE DESIGN============ */
+  .footer h1 {
+    font-size: 16px;
+  }
+  .footer P {
+    font-size: 12px;
+  }
 }
